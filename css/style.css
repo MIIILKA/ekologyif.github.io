@@ -1,0 +1,702 @@
+*{
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+.container{
+  height: 2000px;
+  width: 930px; 
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding:  px;
+}
+.header{
+  width: 100%;
+  height: 150px;
+  background: grey;
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+ font-family: 'Comfortaa', cursive;
+  font-size: 30px;
+}
+.logo_img{
+  height:100px;
+  width: 100px;
+  margin-top: 0px;
+   
+}
+.content1{
+  width: 100%;
+
+}
+a{
+  list-style: none;
+}
+.golovna{
+  padding: 35px;
+  display: flex;
+  flex-direction: row;
+}
+.head{
+  margin-right: 10px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+.header_text{
+  height: 40px;
+  width: 200px;
+  font-size: 20px;
+  list-style: none;
+  padding: 5px;
+}
+.active{
+  background: orange;
+  height: 30px;
+}
+.activev{
+  background: orange;
+  height: 60px;
+}
+
+.nav{
+  width: 100%;
+  height: 300px;
+  background: darkgrey;
+  margin-right: 915px;
+  display: flex;
+  flex-wrap: wrap;
+
+  margin-top: 10px;
+}
+.city{
+  margin-left: 420px;
+  width: 500px;
+  height: 220px;
+  margin-top: -120px;
+}
+.p_ekologi{
+  color: black;
+  width: 100%;
+  height: 10px;
+  text-align: left;
+    margin-left: 20px;
+    font-size: 22px;
+    margin-top: 90px;
+} 
+.p_logig{
+  width: 300px;
+  height: 10px;
+  margin-top: 20px; 
+}
+.article{
+  width: 100%;
+  height: 400px;
+  background: darkgrey;
+  margin-right: 15px;
+  display: flex;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+.etuka{
+  width:220px;
+  height:320px;
+  background:#808080;
+  margin-top:35px;
+}
+.etuka_p{
+  font-size: 30px;
+  text-align:center;
+}
+.etuka1{
+  width:220px;
+  height:320px;
+  background:#808080;
+   margin-top:35px;
+}
+.etuka2{
+  width:220px;
+  height:320px;
+  background: #808080;
+   margin-top:35px;
+}
+.meta{
+  width:220px;
+  height:320px;
+  background: #808080;
+  margin-top:35px;
+}
+.text_meta{
+  font-size: 23px;
+}
+.metagreen{
+  width:100%;
+  height:80px;
+  background: green;
+  padding: 10px
+}
+.greenh1{
+  text-align: center;
+}
+
+.icon{
+  width:80px;
+}
+.aside{
+  width: 100%;
+  height: 600px;
+  background:#38E156;
+  margin-right: 15px;
+  display: flex;
+  margin-top: 10px;
+  display: flex;
+  justify-content: space-around;
+}
+.vernadski{
+  width: 20%;
+  height: 40%;
+  background: darkgrey;
+    margin-top: 10px;
+}
+.vernadski_img{
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
+  margin-top: 20px;
+}
+.tesla{
+  width: 20%;
+  height: 40%;
+  background: darkgrey;
+    margin-top: 10px;
+}
+.tesla_img{
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
+  margin-top: 20px;
+
+}
+.mask{
+  width: 20%;
+  height: 40%;
+  background: darkgrey;
+    margin-top: 10px;
+}
+.mask_img{
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
+  margin-top: 20px;
+
+}
+.chamichan{
+  width: 20%;
+  height: 40%;
+  background: darkgrey;
+    margin-top: 10px;
+}
+.chamichan_img{
+  width: 50%;
+  height: 50%;
+  border-radius: 50%;
+  margin-top: 20px;
+
+}
+.vernadski_p{
+  color: transparent;
+}.tesla_p{
+  color: transparent;
+}.mask_p{
+  color: transparent;
+}.chamichan_p{
+  color: transparent;
+}
+ .vernadski_p{
+  color: black;
+  transition: 2s;
+  background: grey;
+  height: 446px;
+}
+ .tesla_p{
+  color: black;
+  transition: 2s;
+  background: grey;
+  height: 446px;
+}
+ .mask_p{
+  color: black;
+  transition: 2s;
+  background: grey;
+  height: 446px;
+}
+ .chamichan_p{
+  color: black;
+  transition: 2s;
+  background: grey;
+  height: 446px;
+}
+.footer{
+  width: 100%;
+  height: 100px;
+  background: grey;
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;  
+}
+.footer_div{
+  margin-top: 30px;
+  width:220px;
+  height:50px;
+}
+.img_footer{
+  width:40px;
+  margin-top: -25px;
+}
+.footer_p{
+  font-size: 15px;
+}
+
+/*2 сторінка*/
+
+
+.wrapper {
+  height: 550px;
+  margin: 100px auto 0;
+  position: relative;
+  top: -100px;
+  width: 920px;
+  margin-bottom: 100px;
+}
+
+.slider {
+  background-color: #ddd;
+  height: inherit;
+  overflow: hidden;
+  position: relative;
+  width: inherit;
+  -webkit-box-shadow: 0 0 20px rgba(0, 0, 0, .5);
+  -moz-box-shadow: 0 0 20px rgba(0, 0, 0, .5);
+  -o-box-shadow: 0 0 20px rgba(0, 0, 0, .5);
+  box-shadow: 0 0 20px rgba(0, 0, 0, .5);
+}
+.wrapper > input {
+  display: none;
+
+}
+.slides {
+  height: inherit;
+  position: absolute;
+  width: inherit;
+  height: 300px;
+}
+
+.slide1 {background-size: 980px; background-image: url(https://sites.google.com/site/prirodanasevseegooglgfgf/_/rsrc/1463456237313/home/priroda_gory_nebo_ozero_oblaka_81150_1920x1080.jpg); }
+.slide2 {background-size: 920px; background-image: url(https://images.ua.prom.st/475051911_w877_h473_fotooboi-priroda-04.jpg); }
+.slide3 {background-size: 920px; background-image: url(https://www.crimeantatars.club/wp-content/uploads/2016/04/Priroda.jpg); }
+.slide4 {background-size: 920px; background-image: url(https://bipbap.ru/wp-content/uploads/2017/04/priroda_kartinki_foto_03.jpg); }
+.slide5 {background-size: 920px; background-image: url(https://images.ua.prom.st/475051195_w877_h473_fotooboi-priroda-02.jpg); }
+
+.wrapper .controls {
+  left: 50%;
+  margin-left: -98px;
+  position: absolute;
+}
+
+.wrapper label {
+
+
+  cursor: pointer;
+  display: inline-block;
+  height: 8px;
+  margin: 25px 12px 0 16px;
+  position: relative;
+  width: 8px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+}
+
+.wrapper label:after {
+  border: 2px solid #111;
+
+  content: " ";
+  display: block;
+  height: 12px;
+  left: -4px;
+  position: absolute;
+  top: -4px;
+  width: 12px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+}
+.wrapper label {
+  border-color: black;
+
+  cursor: pointer;
+  display: inline-block;
+  height: 8px;
+  margin: 25px 12px 0 16px;
+  position: relative;
+  width: 8px;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -o-border-radius: 50%;
+  border-radius: 50%;
+  -webkit-transition: background ease-in-out .5s;
+  -moz-transition: background ease-in-out .5s;
+  -o-transition: background ease-in-out .5s;
+  transition: background ease-in-out .5s;
+}
+
+.wrapper label:hover, 
+#slide1:checked ~ .controls label:nth-of-type(1),
+#slide2:checked ~ .controls label:nth-of-type(2),
+#slide3:checked ~ .controls label:nth-of-type(3),
+#slide4:checked ~ .controls label:nth-of-type(4),
+#slide5:checked ~ .controls label:nth-of-type(5) {
+  background: #fff;
+}
+.slides {
+
+  height: inherit;
+  opacity: 0;
+  position: absolute;
+  width: inherit;
+  z-index: 0;
+  -webkit-transform: scale(1.5);
+  -moz-transform: scale(1.5);
+  -o-transform: scale(1.5);
+  transform: scale(1.5);
+  -webkit-transition: transform ease-in-out .5s, opacity ease-in-out .5s;
+  -moz-transition: transform ease-in-out .5s, opacity ease-in-out .5s;
+  -o-transition: transform ease-in-out .5s, opacity ease-in-out .5s;
+  transition: transform ease-in-out .5s, opacity ease-in-out .5s;
+}
+
+#slide1:checked ~ .slider > .slide1,
+#slide2:checked ~ .slider > .slide2,
+#slide3:checked ~ .slider > .slide3,
+#slide4:checked ~ .slider > .slide4,
+#slide5:checked ~ .slider > .slide5 {
+  width: 920px;
+  opacity: 1;
+  z-index: 1;
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  -o-transform: scale(1);
+  transform: scale(1);
+}
+
+
+.earth_2{
+  width: 80px;
+  height: 80px;
+  overflow:hidden;
+  margin: auto;
+  animation: circle 6s linear infinite;
+  margin-left:-30px;
+}
+
+.earth_clean2{
+  width:80px;
+  height:80px;
+  overflow:hidden;
+  margin: auto;
+  animation: circletwo 6s linear infinite;
+  margin-top:60px;
+}
+
+.vitriaki_2{
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  overflow:hidden;
+  margin: auto;
+  animation: circlethree 6s linear infinite;
+}
+
+.article2{
+  background: grey;
+  padding: 30px;
+  text-align: justify;
+}
+.article2_h1{
+  font-size: 35px;
+    text-align: center;
+    padding: 20px;
+}
+.article2p{
+  font-size: 25px;
+    text-align: justify;
+}
+.nav2{
+  height: 600px;
+  margin-top: 30px; 
+}
+.footer2{
+  width: 100%;
+  height: 100px;
+  background: grey;
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;  
+}
+.footer_div{
+  margin-top: 30px;
+  width:220px;
+  height:50px;
+}
+.img_footer{
+  width:40px;
+  margin-top: -25px;
+}
+.footer_p{
+  font-size: 15px;
+}
+/*3 сторінка*/
+.container3{
+  height: 1550px;
+  width: 930px; 
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding:  px;
+}
+.header3{
+  width: 100%;
+  height: 150px;
+  background: grey;
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+ font-family: 'Comfortaa', cursive;
+  font-size: 30px;
+}
+h5{
+  font-size: 23px;
+}
+.content{
+  width:  930px;
+}
+.aside1{
+  width: 100%;
+  height: 400px;
+  background: darkgrey;
+  margin-top: 20px;  
+}
+.aside2{
+  width: 100%;
+  height: 400px;
+  background: darkgrey;
+  margin-top: 00px;
+  margin-top: 20px;  
+}
+.aside3{
+  width: 100%;
+  height: 400px;
+  background: darkgrey;
+  margin-top: 20px;  
+}
+.aside4{
+  width: 100%;
+  height: 400px;
+  background: darkgrey;
+  margin-top: 20px;  
+}
+.aside_p{
+  float: right;
+  font-size: 20px;
+}
+.aside3_img{
+  float: left;
+  width: 500px;
+  height: 300px;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+.aside4_img{
+  float: left;
+  width: 300px;
+  height: 300px;
+  margin-left: 30px;
+  margin-top: 20px;
+}
+.div{
+  float: right;
+  width: 400px;
+  height: 300px;
+  margin-top: 50px;
+}
+.park3{
+  margin-left: 370px;
+}
+.park3_3{
+  margin-left: 0px;
+}
+
+html {
+  }
+body {
+  background-position: center center;
+  background-attachment: fixed;
+  background-size: cover;
+  background-color:lightgrey;
+  
+  /*контент в центр страницы*/
+  margin: 0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.box {
+  border: 0px solid  #F0FFFF;
+  border-radius: 150px;
+  height:300px;
+  width:300px;
+
+}
+
+.circle {
+  margin: 33% 33% 33% 33%;
+  background-image: 
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  transition: all 0.6s ease;
+}
+
+
+.orbit1 {
+  background-size: 150px;
+  background-image:  url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcQXserKm4qX2as71uyozJZLxhgycL32bqSYK6mX7D3V9UH8R8iN&usqp=CAU);
+  border-radius: 50%;
+  height: 100px;
+  width: 100px;
+  position: absolute;
+  right: 43%;
+  animation: Orbita 15s linear infinite;
+}
+
+@keyframes Orbita {
+ 0% {position: absolute;
+  right: 43%;
+    transform: rotate(0deg) translateX(150px) rotate(0deg);
+  }
+ 25% {position: absolute;
+  right: 43%;
+    transform: rotate(90deg) translateX(150px) rotate(90deg);
+  }
+    50% {position: absolute;
+  right: 43%;
+    transform: rotate(180deg) translateX(150px) rotate(180deg);
+  }
+     75% {position: absolute;
+  right: 43%;
+    transform: rotate(270deg) translateX(150px) rotate(270deg);
+  }
+   
+    100% {position: absolute;
+  right: 43%;
+    transform: rotate(360deg) translateX(150px) rotate(360deg);
+  }
+    
+        
+}
+
+.orbit2 {
+  background-size: 100px;
+    background-image: url(https://wiki.cuspu.edu.ua/images/b/b6/%D0%92%D1%96%D1%82%D1%80%D1%8F%D0%BA.jpg);
+  border-radius: 50%;
+  height: 70px;
+  width: 70px;
+  position: absolute;
+ 
+  left: 39%;
+  top: 29%;
+  
+  animation: Orbita2 15s linear infinite; 
+}
+@keyframes Orbita2 {
+   0% { background-image: url(https://wiki.cuspu.edu.ua/images/b/b6/%D0%92%D1%96%D1%82%D1%80%D1%8F%D0%BA.jpg);
+        position: absolute;
+        left: 60%;
+        top: 119.9%;
+        transform: rotate(80deg) translateX(150px) rotate(80deg);
+    }
+    25%{ background-image: url(https://wiki.cuspu.edu.ua/images/b/b6/%D0%92%D1%96%D1%82%D1%80%D1%8F%D0%BA.jpg); transform: rotate(170deg) translateX(150px) rotate(170deg);
+    }
+    50%{ background-image: url(https://wiki.cuspu.edu.ua/images/b/b6/%D0%92%D1%96%D1%82%D1%80%D1%8F%D0%BA.jpg); transform: rotate(260deg) translateX(150px) rotate(260deg);
+    }
+    75%{ background-image: url(https://wiki.cuspu.edu.ua/images/b/b6/%D0%92%D1%96%D1%82%D1%80%D1%8F%D0%BA.jpg); transform: rotate(350deg) translateX(150px) rotate(350deg);
+    }
+    100%  {
+      background-image: url(https://wiki.cuspu.edu.ua/images/b/b6/%D0%92%D1%96%D1%82%D1%80%D1%8F%D0%BA.jpg);
+        position: absolute;
+      
+        top: 1700px;
+        transform: rotate(280deg) translateX(50px) rotate(240deg); }
+}
+
+@keyframes Orbita3 {
+    from { 
+       position: absolute; 
+       right: 43%;
+       transform: rotate(270deg) translateX(150px) rotate(270deg); 
+    }
+    to{
+        position: absolute; 
+       right: 43%;
+        transform: rotate(650deg) translateX(150px) rotate(650deg);
+    }
+}
+
+.orbit3 {
+  background-size: 50px; 
+  background-image: url(https://wiki.cuspu.edu.ua/images/b/b6/%D0%92%D1%96%D1%82%D1%80%D1%8F%D0%BA.jpg);
+  border-radius: 50%;
+  height: 70px;
+  width: 70px;
+  position: absolute; 
+  right: 43%;
+  animation: Orbita3 15s linear infinite; 
+}
+.container5{
+  height: 2000px;
+  width: 930px; 
+  margin: 0 auto;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  padding:  px;
+}
+.header5{
+  width: 100%;
+  height: 150px;
+  background: white;
+  display: flex;
+  flex-direction: row;
+  padding: 20px;
+ font-family: 'Comfortaa', cursive;
+  font-size: 30px;
+}
+.footer5{
+  width: 100%;
+  height: 100px;
+  background: grey;
+  margin-top: 10px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;  
+}
